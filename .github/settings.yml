@@ -1,6 +1,6 @@
 repository:
   name: test
-  description: description of repo
+  description: change...
   default_branch: master
   
 labels:
