@@ -13,4 +13,4 @@ labels:
 branches:
   - name: test
     protection:
-      enforce_admins: true
+      enforce_admins: 
