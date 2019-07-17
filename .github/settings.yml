@@ -1,6 +1,6 @@
 repository:
   name: test
-  description: change...
+  description: change...2
   default_branch: master
   
 labels:
@@ -18,9 +18,9 @@ branches:
         # The number of approvals required. (1-6)
         required_approving_review_count: 1
         # Dismiss approved reviews automatically when a new commit is pushed.
-        dismiss_stale_reviews: true
+        dismiss_stale_reviews: false
         # Blocks merge until code owners have reviewed.
-        require_code_owner_reviews: true
+        require_code_owner_reviews: false
         # Specify which users and teams can dismiss pull request reviews. Pass an empty dismissal_restrictions object to disable. User and team dismissal_restrictions are only available for organization-owned repositories. Omit this parameter for personal repositories.
         dismissal_restrictions:
           users: []
