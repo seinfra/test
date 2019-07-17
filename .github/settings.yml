@@ -1,6 +1,6 @@
 repository:
   name: test
-  description: change...2
+  description: change...3
   default_branch: master
   
 labels:
@@ -12,7 +12,7 @@ labels:
   
 branches:
   - name: master
-    protection:
+    protection: masteeeeee
       # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
       required_pull_request_reviews:
         # The number of approvals required. (1-6)
